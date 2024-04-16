@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+ --primary-color: #f44336;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+     padding: 20px;
+     margin: 0 0 50px;
+     background-color: white;
+}
+.guess-game{
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    margin: 20px auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    .game-area{
+        text-align: center;
+    }
+    .key-colors{
+        .key-color{
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background-color: white;
+            margin-bottom: 10px;
+            .key{
+                width: 30px;
+                height: 30px;
+                border: 1px solid #ccc;
+                margin-right: 10px;
+                
+            }
+            .in-place{
+                background-color: yellowgreen;
+            }
+            .not-in-Place{
+                background-color: #f4ee36;
+            }
+            .no{
+                background-color: #f44336;
+            }
+            .key-text{
+                font-size: 20px;
+                font-weight: bold;
+
+            }
+        }
+    }
+    
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    background-color: #333;
+    color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
